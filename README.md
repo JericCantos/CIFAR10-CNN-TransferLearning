@@ -16,3 +16,6 @@ save_dir = 'DIRECTORY_CONTAINING_FILE' # e.g. /content/drive/MyDrive/Masterschoo
 model_path = os.path.join(save_dir, 'custom_cnn.keras')
 custom_cnn = load_model(model_path)
 ```
+
+## images
+Contains the images used to test the `custom_cnn.keras` model that were not from the CIFAR10  database.
